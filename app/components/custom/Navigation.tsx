@@ -14,7 +14,10 @@ export default function Navigation() {
   return (
     <div className="flex flex-col bg-white dark:bg-gray-900">
       <div className="w-full px-4 py-6 flex items-center justify-between">
-        <Link to="/" className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+        <Link
+          to="/"
+          className="text-2xl font-bold text-gray-900 dark:text-gray-100"
+        >
           MyApp
         </Link>
         <NavigationMenu>
@@ -50,7 +53,6 @@ export default function Navigation() {
               >
                 Contact
               </Link>
-          
             </NavigationMenuLink>
             <NavigationMenuLink asChild>
               <Link
@@ -59,7 +61,6 @@ export default function Navigation() {
               >
                 Dashboard
               </Link>
-          
             </NavigationMenuLink>
           </NavigationMenuList>
         </NavigationMenu>

@@ -10,9 +10,5 @@ export const meta: MetaFunction = () => {
 };
 
 export default function RootRoute() {
-  return (
-    <Hero />
-  )
+  return <Hero />;
 }
-
-
